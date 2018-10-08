@@ -1,0 +1,526 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>F1 News</title>
+    <link rel="stylesheet" type="text/css" href="css/teamstyle.css">
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html"><img src="../images/f1.png" alt="F1 Logo" style="width:110px;"></a>
+
+      <!-- Menu button -->
+      <label class="burger-label" for="burger"></label>
+      <input class="burger" id="burger" type="checkbox">
+
+      <!-- Mobile Menu -->
+      <nav class="mobile-menu">
+        <h2>F1 Site Menu</h2>
+        <ul>
+          <li>
+            <a href="#">Teams</a>
+            <ul>
+              <li>
+                <a href="mercedes.html">Mercedes AMG Petronas</a>
+              </li>
+              <li>
+                <a href="ferrari.html">Scuderia Ferrari</a>
+              </li>
+              <li>
+                <a href="redbull.html">Aston Martin Red Bull Racing</a>
+              </li>
+              <li>
+                <a href="forceindia.html">Sahara Force India</a>
+              </li>
+              <li>
+                <a href="williams.html">Williams Martini Racing</a>
+              </li>
+              <li>
+                <a href="torrorosso.html">Red Bull Toro Rosso Honda</a>
+              </li>
+              <li>
+                <a href="renault.html">Renault Sport F1</a>
+              </li>
+              <li>
+                <a href="haas.html">Haas F1</a>
+              </li>
+              <li>
+                <a href="mclaren.html">Mclaren F1</a>
+              </li>
+              <li>
+                <a href="sauber.html">Alfa Romeo Sauber F1</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Drivers</a>
+            <ul>
+              <li>
+                <a href="../drivers/hamilton.html">Lewis Hamilton</a>
+              </li>
+              <li>
+                <a href="../drivers/bottas.html">Valterri Bottas</a>
+              </li>
+              <li>
+                <a href="../drivers/vettel.html">Sebastian Vettel</a>
+              </li>
+              <li>
+                <a href="../drivers/raikkonen.html">Kimi Raikkonen</a>
+              </li>
+              <li>
+                <a href="../drivers/verstappen.html">Max Verstappen </a>
+              </li>
+              <li>
+                <a href="../drivers/ricciardo.html">Daniel Ricciardo </a>
+              </li>
+              <li>
+                <a href="../drivers/perez.html">Sergio Perez</a>
+              </li>
+              <li>
+                <a href="../drivers/ocon.html">Esteban Ocon</a>
+              </li>
+              <li>
+                <a href="../drivers/stroll.html">Lance Stroll</a>
+              </li>
+              <li>
+                <a href="../drivers/sirotkin.html">Sergey Sirotkin</a>
+              </li>
+              <li>
+                <a href="../drivers/gasly.html">Pierre Gasly</a>
+              </li>
+              <li>
+                <a href="../drivers/hartley.html">Brendon Hartley</a>
+              </li>
+              <li>
+                <a href="../drivers/hulkenberg.html">Nico Hulkenberg</a>
+              </li>
+              <li>
+                <a href="../drivers/sainz.html">Carlos Sainz</a>
+              </li>
+              <li>
+                <a href="../drivers/magnussen.html">Kevin Magnussen</a>
+              </li>
+              <li>
+                <a href="../drivers/grosjean.html">Romain Grosjean</a>
+              </li>
+              <li>
+                <a href="../drivers/alonso.html">Fernando Alonso</a>
+              </li>
+              <li>
+                <a href="../drivers/vandoorne.html">Stoffel Vandoorne</a>
+              </li>
+              <li>
+                <a href="../drivers/ericsson.html">Marcus Ericsson</a>
+              </li>
+              <li>
+                <a href="../drivers/leclerc.html">Charles Leclerc</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Current Standings</a>
+            <ul>
+              <li>
+                <a href="../standings/drivers.html">Drivers Standings</a>
+              </li>
+              <li>
+                <a href="../standings/constructors.html">Constructors Standings</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">News</a>
+            <ul>
+              <li>
+                <a href="../news/latest.html">Latest News</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Dropdown menu -->
+      <nav class="main-menu">
+        <ul>
+          <li>
+            <a href="#">Teams</a>
+            <ul>
+              <li>
+                <a href="mercedes.html">Mercedes AMG Petronas</a>
+              </li>
+              <li>
+                <a href="ferrari.html">Scuderia Ferrari</a>
+              </li>
+              <li>
+                <a href="redbull.html">Aston Martin Red Bull Racing</a>
+              </li>
+              <li>
+                <a href="forceindia.html">Sahara Force India</a>
+              </li>
+              <li>
+                <a href="williams.html">Williams Martini Racing</a>
+              </li>
+              <li>
+                <a href="torrorosso.html">Red Bull Toro Rosso Honda</a>
+              </li>
+              <li>
+                <a href="renault.html">Renault Sport F1</a>
+              </li>
+              <li>
+                <a href="haas.html">Haas F1</a>
+              </li>
+              <li>
+                <a href="mclaren.html">Mclaren F1</a>
+              </li>
+              <li>
+                <a href="sauber.html">Alfa Romeo Sauber F1</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Drivers</a>
+            <ul>
+              <li>
+               <a href="../drivers/hamilton.html">Lewis Hamilton</a>
+              </li>
+              <li>
+               <a href="../drivers/bottas.html">Valterri Bottas</a>
+              </li>
+              <li>
+               <a href="../drivers/vettel.html">Sebastian Vettel</a>
+              </li>
+              <li>
+               <a href="../drivers/raikkonen.html">Kimi Raikkonen</a>
+              </li>
+              <li>
+               <a href="../drivers/verstappen.html">Max Verstappen</a>
+              </li>
+              <li>
+               <a href="../drivers/ricciardo.html">Daniel Ricciardo</a>
+              </li>
+              <li>
+                <a href="../drivers/perez.html">Sergio Perez</a>
+              </li>
+              <li>
+                <a href="../drivers/ocon.html">Esteban Ocon</a>
+              </li>
+              <li>
+                <a href="../drivers/stroll.html">Lance Stroll</a>
+              </li>
+              <li>
+                <a href="../drivers/sirotkin.html">Sergey Sirotkin</a>
+              </li>
+              <li>
+                <a href="../drivers/gasly.html">Pierre Gasly</a>
+              </li>
+              <li>
+                <a href="../drivers/hartley.html">Brendon Hartley</a>
+              </li>
+              <li>
+                <a href="../drivers/hulkenberg.html">Nico Hulkenberg</a>
+              </li>
+              <li>
+                <a href="../drivers/sainz.html">Carlos Sainz</a>
+              </li>
+              <li>
+                <a href="../drivers/magnussen.html">Kevin Magnussen</a>
+              </li>
+              <li>
+                <a href="../drivers/grosjean.html">Romain Grosjean</a>
+              </li>
+              <li>
+                <a href="../drivers/alonso.html">Fernando Alonso</a>
+              </li>
+              <li>
+                <a href="../drivers/vandoorne.html">Stoffel Vandoorne</a>
+              </li>
+              <li>
+                <a href="../drivers/ericsson.html">Marcus Ericsson</a>
+              </li>
+              <li>
+                <a href="../drivers/leclerc.html">Charles Leclerc</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Current Standings</a>
+            <ul>
+              <li>
+                <a href="../standings/drivers.html">Drivers Standings</a>
+              </li>
+              <li>
+                <a href="../standings/constructors.html">Constructors Standings</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">News</a>
+            <ul>
+              <li>
+                <a href="../news/latest.html">Latest News</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+
+      <h1 class="title">Alfa Romeo Sauber F1</h1>
+      <h2 class="teamlogo"><img src="teamimages/sauber.jpg" alt="Sauber Logo" style="width:30%;"></h2>
+
+      <article class="team-info">
+        <h2>Team Information</h2>
+        <p>Having enjoyed considerable success in world sportscars, where he helped nurture the emerging talents of future F1 stars Michael Schumacher and Heinz-Harald Frentzen, Peter Sauber guided his eponymous squad into F1 racing in 1993.</p>
+        <p>The Swiss team has since established itself as a mainstay of the F1 grid, becoming race winners under BMW’s brief ownership, and developing a well-earned reputation not only for producing competitive cars, but also for developing young drivers.</p>
+      </article>
+
+      <article class="driver-info">
+        <h2>Drivers</h2>
+        <img class="leftdriver" src="teamimages/ericsson.jpg" alt="Marcus Ericsson" style="width:50%;">
+        <img class="rightdriver" src="teamimages/leclerc.jpg" alt="Charles Leclerc" style="width:50%;">
+        <p class="leftdrivertext">Marcus Ericsson 9<a class="driverbutton" href="../drivers/ericsson.html">View</a></p>
+        <p class="rightdrivertext">Charles Leclerc 16<a class="driverbutton" href="../drivers/leclerc.html">View</a></p>
+      </article>
+
+      <article class="team-constructors">
+        <h2>Constructors Standings</h2>
+<table class="tg">
+  <tr>
+    <th class="tg-alldrivers">Position</th>
+    <th class="tg-alldrivers">Team</th>
+    <th class="tg-alldrivers">Wins<br></th>
+    <th class="tg-alldrivers">Points</th>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">1<br></td>
+    <td class="tg-alldrivers">Mercedes</td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">85</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">2</td>
+    <td class="tg-alldrivers">Ferrari<br></td>
+    <td class="tg-alldrivers">2<br></td>
+    <td class="tg-alldrivers">84</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">3</td>
+    <td class="tg-alldrivers">Red Bull<br></td>
+    <td class="tg-alldrivers">1</td>
+    <td class="tg-alldrivers">55</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">4</td>
+    <td class="tg-alldrivers">Mclaren<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">28</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">5</td>
+    <td class="tg-alldrivers">Renault<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">25<br></td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">6</td>
+    <td class="tg-alldrivers">Toro Rosso<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">12</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">7</td>
+    <td class="tg-alldrivers">Haas<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">11</td>
+  </tr>
+  <tr>
+    <td class="tg-currentdriver">8</td>
+    <td class="tg-currentdriver">Sauber<br></td>
+    <td class="tg-currentdriver">0</td>
+    <td class="tg-currentdriver">2</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">9</td>
+    <td class="tg-alldrivers">Force India<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">1</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">10</td>
+    <td class="tg-alldrivers">Williams<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">0</td>
+  </tr>
+</table>
+        <a class="button" href="../standings/constructors.html">Read more</a>
+      </article>
+
+      <article class="drivers-standings">
+        <h2>Drivers Standings</h2>
+<table class="tg">
+<tr>
+<th class="tg-alldrivers">Position</th>
+<th class="tg-alldrivers">Driver</th>
+<th class="tg-alldrivers">Team<br></th>
+<th class="tg-alldrivers">Wins</th>
+<th class="tg-alldrivers">Points<br></th>
+</tr>
+<tr>
+<td class="tg-alldrivers">1</td>
+<td class="tg-alldrivers">Sebastian Vettel<br></td>
+<td class="tg-alldrivers">Ferrari<br></td>
+<td class="tg-alldrivers">2</td>
+<td class="tg-alldrivers">54<br></td>
+</tr>
+<tr>
+<td class="tg-alldrivers">2</td>
+<td class="tg-alldrivers">Lewis Hamilton<br></td>
+<td class="tg-alldrivers">Mercedes</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">45<br></td>
+</tr>
+<tr>
+<td class="tg-alldrivers">3</td>
+<td class="tg-alldrivers">Valterri Bottas<br></td>
+<td class="tg-alldrivers">Mercedes</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">40<br></td>
+</tr>
+<tr>
+<td class="tg-alldrivers">4</td>
+<td class="tg-alldrivers">Daniel Ricciardo<br></td>
+<td class="tg-alldrivers">Red Bull<br></td>
+<td class="tg-alldrivers">1</td>
+<td class="tg-alldrivers">37</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">5</td>
+<td class="tg-alldrivers">Kimi Raikkonen<br></td>
+<td class="tg-alldrivers">Ferrari</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">30</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">6</td>
+<td class="tg-alldrivers">Fernando Alonso<br></td>
+<td class="tg-alldrivers">Mclaren</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">22</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">7</td>
+<td class="tg-alldrivers">Nico Hulkenberg<br></td>
+<td class="tg-alldrivers">Renault</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">22</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">8<br></td>
+<td class="tg-alldrivers">Max Verstappen<br></td>
+<td class="tg-alldrivers">Red Bull<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">18</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">9<br></td>
+<td class="tg-alldrivers">Pierre Gasly<br></td>
+<td class="tg-alldrivers">Toro Rosso<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">12</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">10</td>
+<td class="tg-alldrivers">Kevin Magnussen<br></td>
+<td class="tg-alldrivers">Haas</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">11</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">11<br></td>
+<td class="tg-alldrivers">Stoffel Vandoorne<br></td>
+<td class="tg-alldrivers">Mclaren</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">6</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">12</td>
+<td class="tg-alldrivers">Carlos Sainz Jr.<br></td>
+<td class="tg-alldrivers">Renault</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">3</td>
+</tr>
+<tr>
+<td class="tg-currentdriver">13</td>
+<td class="tg-currentdriver">Marcus Ericsson<br></td>
+<td class="tg-currentdriver">Sauber<br></td>
+<td class="tg-currentdriver">0</td>
+<td class="tg-currentdriver">2</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">14<br></td>
+<td class="tg-alldrivers">Esteban Ocon<br></td>
+<td class="tg-alldrivers">Force India</td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">1</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">15</td>
+<td class="tg-alldrivers">Sergio Perez<br></td>
+<td class="tg-alldrivers">Force India<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">0</td>
+</tr>
+<tr>
+<td class="tg-currentdriver">16</td>
+<td class="tg-currentdriver">Charles Leclerc<br></td>
+<td class="tg-currentdriver">Sauber</td>
+<td class="tg-currentdriver">0</td>
+<td class="tg-currentdriver">0</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">17</td>
+<td class="tg-alldrivers">Romain Grosjean<br></td>
+<td class="tg-alldrivers">Haas<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">0</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">18<br></td>
+<td class="tg-alldrivers">Lance Stroll<br></td>
+<td class="tg-alldrivers">Williams<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">0</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">19</td>
+<td class="tg-alldrivers">Sergey Sirotkin<br></td>
+<td class="tg-alldrivers">Williams<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">0</td>
+</tr>
+<tr>
+<td class="tg-alldrivers">20<br></td>
+<td class="tg-alldrivers">Brendon Hartley<br></td>
+<td class="tg-alldrivers">Toro Rosso<br></td>
+<td class="tg-alldrivers">0</td>
+<td class="tg-alldrivers">0</td>
+</tr>
+</table>
+        <a class="button" href="../standings/drivers.html">Read more</a>
+      </article>
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>

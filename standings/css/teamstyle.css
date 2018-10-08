@@ -1,0 +1,283 @@
+html, body {
+  font-family: sans-serif;
+  margin: 0;
+  color: #000000;
+}
+
+/* Header */
+header {
+  padding: 20px;
+  height: 50px;
+  background-color: #111111;
+  line-height: 50px;
+}
+
+/* Logo */
+.logo {
+  text-decoration: none;
+  font-weight: normal;
+  color: #EEE;
+  font-size: 1.5em;
+}
+
+/* Menu container */
+.main-menu {
+  float: right;
+  margin-right: 50px;
+}
+
+/* All top level menus */
+.main-menu ul {
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+/* All menu items */
+.main-menu li {
+  margin-right: 5px;
+  float: left;
+}
+
+/* All sub-menus */
+.main-menu li ul {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  border-radius: 0px 4px 4px 4px;
+}
+
+/* Show drop down menus when hovered */
+.main-menu li:hover ul {
+  display: block;
+}
+
+/* Trasform sub menus from horizontal to vertical */
+.main-menu li:hover li {
+  margin-right: 0;
+  float: none;
+}
+
+/* All menu items links */
+.main-menu a {
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  color: #FFF;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 4px 4px 0px 0px;
+}
+
+/* All top level menu items with no sub menus */
+.main-menu a:only-child {
+  border-radius: 4px;
+}
+
+/* Sub menu item links */
+.main-menu li ul a {
+  background-color: #333;
+  border-radius: 0px;
+}
+
+/* All menu items links hover effect */
+.main-menu a:hover {
+  background-color: #444;
+}
+
+/* Get rid of margin on final menu item */
+.main-menu > ul > li:last-child {
+  margin-right: 0px;
+}
+
+
+main {
+  width: 820px;
+  margin: 25px auto;
+  overflow: auto;
+  padding:
+}
+
+.title{
+  margin-bottom: 0px;
+}
+
+.teamlogo{
+margin: 0px;
+}
+
+/* Articles */
+article {
+  float: left;
+  width: 400px;
+  text-align: justify;
+  margin-right: 10px;
+}
+
+.leftdriver{
+  float: left;
+}
+
+.leftdrivertext{
+  float: left;
+}
+
+.rightdriver{
+  float: right;
+}
+
+.rightdrivertext{
+  float: right;
+}
+
+
+/* Left column */
+.team-constructors {
+  margin-left: 0px;
+  clear: both;
+}
+
+/* Right column */
+.drivers-standings {
+  margin-right: 0px;
+}
+
+.driverbutton {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  background-color: #AAA;
+}
+
+.button {
+  display: block;
+  padding: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+  background-color: #AAA;
+  float: left;
+}
+
+/* Mobile components */
+.mobile-menu {
+  width: 250px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  transform: translateX(-250px);
+  transition: transform .25s ease-in-out;
+  background-color: #EEE;
+  height: 100%;
+  overflow-y: scroll;
+
+}
+.mobile-menu h2 {
+  color: #FFF;
+  margin: 0;
+  height: 90px;
+  padding: 25px;
+  box-sizing: border-box;
+  background-color: #111111;
+  line-height: 40px;
+  font-weight: normal;
+}
+.mobile-menu ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.mobile-menu a {
+  display: block;
+  padding: 5px 25px;
+  color: #000000;
+  text-decoration: none;
+}
+.mobile-menu a:hover {
+  background-color: rgba(0,0,0,0.15);
+}
+.mobile-menu li ul a {
+  font-size: 0.8em;
+  padding: 0px 25px 0px 35px;
+}
+
+/* Burger checkbox */
+.burger {
+  display: none;
+}
+
+/* Burger label */
+.burger-label {
+  display: none;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  float: right;
+  color: #EEE;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+/* Burger label hover */
+.burger-label:hover {
+  background-color: #444;
+}
+
+/* Burger label before pseudo element */
+.burger-label:before {
+  content:'\2630';
+}
+.burger-label:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  height: 50px;
+  padding: 25px;
+  box-sizing: border-box;
+  color: #EEE;
+  background-color: #111111;
+}
+
+.alert {
+  box-sizing: border-box;
+  padding: 15px;
+  border: solid 1px #F44336;
+  background-color: rgba(244,67,54,0.13);
+  color: #F44336;
+  border-radius: 8px;
+  line-height: 25px;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Media Queries */
+@media (max-width: 880px) {
+  .burger:checked + .mobile-menu {
+    left: 0;
+    transform: translateX(0);
+    transition: transform .25s ease-in-out;
+  }
+  .main-menu {
+    display: none;
+  }
+  .burger-label {
+    display: block;
+  }
+  main {
+    width: 100%;
+    padding: 0px 25px;
+    box-sizing: border-box;
+  }
+  article {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

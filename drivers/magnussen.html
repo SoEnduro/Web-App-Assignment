@@ -1,0 +1,386 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>F1 Stats</title>
+    <link rel="stylesheet" type="text/css" href="css/driverstyle.css">
+  </head>
+  <body>
+    <header>
+      <a class="logo" href="../index.html"><img src="../images/f1.png" alt="F1 Logo" style="width:110px;"></a>
+
+      <!-- Menu button -->
+      <label class="burger-label" for="burger"></label>
+      <input class="burger" id="burger" type="checkbox">
+
+      <!-- Mobile Menu -->
+      <nav class="mobile-menu">
+        <h2>F1 Site Menu</h2>
+        <ul>
+          <li>
+            <a href="#">Teams</a>
+            <ul>
+              <li>
+                <a href="../teams/mercedes.html">Mercedes AMG Petronas</a>
+              </li>
+              <li>
+                <a href="../teams/ferrari.html">Scuderia Ferrari</a>
+              </li>
+              <li>
+                <a href="../teams/redbull.html">Aston Martin Red Bull Racing</a>
+              </li>
+              <li>
+                <a href="../teams/forceindia.html">Sahara Force India</a>
+              </li>
+              <li>
+                <a href="../teams/williams.html">Williams Martini Racing</a>
+              </li>
+              <li>
+                <a href="../teams/torrorosso.html">Red Bull Toro Rosso Honda</a>
+              </li>
+              <li>
+                <a href="../teams/renault.html">Renault Sport F1</a>
+              </li>
+              <li>
+                <a href="../teams/haas.html">Haas F1</a>
+              </li>
+              <li>
+                <a href="../teams/mclaren.html">Mclaren F1</a>
+              </li>
+              <li>
+                <a href="../teams/sauber.html">Alfa Romeo Sauber F1</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Drivers</a>
+            <ul>
+              <li>
+                <a href="hamilton.html">Lewis Hamilton</a>
+              </li>
+              <li>
+                <a href="bottas.html">Valterri Bottas</a>
+              </li>
+              <li>
+                <a href="vettel.html">Sebastian Vettel</a>
+              </li>
+              <li>
+                <a href="raikkonen.html">Kimi Raikkonen</a>
+              </li>
+              <li>
+                <a href="verstappen.html">Max Verstappen </a>
+              </li>
+              <li>
+                <a href="ricciardo.html">Daniel Ricciardo </a>
+              </li>
+              <li>
+                <a href="perez.html">Sergio Perez</a>
+              </li>
+              <li>
+                <a href="ocon.html">Esteban Ocon</a>
+              </li>
+              <li>
+                <a href="stroll.html">Lance Stroll</a>
+              </li>
+              <li>
+                <a href="sirotkin.html">Sergey Sirotkin</a>
+              </li>
+              <li>
+                <a href="gasly.html">Pierre Gasly</a>
+              </li>
+              <li>
+                <a href="hartley.html">Brendon Hartley</a>
+              </li>
+              <li>
+                <a href="hulkenberg.html">Nico Hulkenberg</a>
+              </li>
+              <li>
+                <a href="sainz.html">Carlos Sainz</a>
+              </li>
+              <li>
+                <a href="magnussen.html">Kevin Magnussen</a>
+              </li>
+              <li>
+                <a href="grosjean.html">Romain Grosjean</a>
+              </li>
+              <li>
+                <a href="alonso.html">Fernando Alonso</a>
+              </li>
+              <li>
+                <a href="vandoorne.html">Stoffel Vandoorne</a>
+              </li>
+              <li>
+                <a href="ericsson.html">Marcus Ericsson</a>
+              </li>
+              <li>
+                <a href="leclerc.html">Charles Leclerc</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Current Standings</a>
+            <ul>
+              <li>
+                <a href="../standings/drivers.html">Drivers Standings</a>
+              </li>
+              <li>
+                <a href="../standings/constructors.html">Constructors Standings</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">News</a>
+            <ul>
+              <li>
+                <a href="../news/latest.html">Latest News</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Dropdown menu -->
+      <nav class="main-menu">
+        <ul>
+
+          <li>
+            <a href="#">Teams</a>
+            <ul>
+              <li>
+                <a href="../teams/mercedes.html">Mercedes AMG Petronas</a>
+              </li>
+              <li>
+                <a href="../teams/ferrari.html">Scuderia Ferrari</a>
+              </li>
+              <li>
+                <a href="../teams/redbull.html">Aston Martin Red Bull Racing</a>
+              </li>
+              <li>
+                <a href="../teams/forceindia.html">Sahara Force India</a>
+              </li>
+              <li>
+                <a href="../teams/williams.html">Williams Martini Racing</a>
+              </li>
+              <li>
+                <a href="../teams/torrorosso.html">Red Bull Toro Rosso Honda</a>
+              </li>
+              <li>
+                <a href="../teams/renault.html">Renault Sport F1</a>
+              </li>
+              <li>
+                <a href="../teams/haas.html">Haas F1</a>
+              </li>
+              <li>
+                <a href="../teams/mclaren.html">Mclaren F1</a>
+              </li>
+              <li>
+                <a href="../teams/sauber.html">Alfa Romeo Sauber F1</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Drivers</a>
+            <ul>
+              <li>
+               <a href="hamilton.html">Lewis Hamilton</a>
+              </li>
+              <li>
+               <a href="bottas.html">Valterri Bottas</a>
+              </li>
+              <li>
+               <a href="vettel.html">Sebastian Vettel</a>
+              </li>
+              <li>
+               <a href="raikkonen.html">Kimi Raikkonen</a>
+              </li>
+              <li>
+               <a href="verstappen.html">Max Verstappen</a>
+              </li>
+              <li>
+               <a href="ricciardo.html">Daniel Ricciardo</a>
+              </li>
+              <li>
+                <a href="perez.html">Sergio Perez</a>
+              </li>
+              <li>
+                <a href="ocon.html">Esteban Ocon</a>
+              </li>
+              <li>
+                <a href="stroll.html">Lance Stroll</a>
+              </li>
+              <li>
+                <a href="sirotkin.html">Sergey Sirotkin</a>
+              </li>
+              <li>
+                <a href="gasly.html">Pierre Gasly</a>
+              </li>
+              <li>
+                <a href="hartley.html">Brendon Hartley</a>
+              </li>
+              <li>
+                <a href="hulkenberg.html">Nico Hulkenberg</a>
+              </li>
+              <li>
+                <a href="sainz.html">Carlos Sainz</a>
+              </li>
+              <li>
+                <a href="magnussen.html">Kevin Magnussen</a>
+              </li>
+              <li>
+                <a href="grosjean.html">Romain Grosjean</a>
+              </li>
+              <li>
+                <a href="alonso.html">Fernando Alonso</a>
+              </li>
+              <li>
+                <a href="vandoorne.html">Stoffel Vandoorne</a>
+              </li>
+              <li>
+                <a href="ericsson.html">Marcus Ericsson</a>
+              </li>
+              <li>
+                <a href="leclerc.html">Charles Leclerc</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">Current Standings</a>
+            <ul>
+              <li>
+                <a href="../standings/drivers.html">Drivers Standings</a>
+              </li>
+              <li>
+                <a href="../standings/constructors.html">Constructors Standings</a>
+              </li>
+            </ul>
+          </li>
+
+          <li>
+            <a href="#">News</a>
+            <ul>
+              <li>
+                <a href="../news/latest.html">Latest News</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="title">Kevin Magnussen</h1>
+      <h2 class="teamlogo"><img src="images/haas.jpg" alt="Haas Logo" style="width:30%;"></h2>
+
+      <article class="team-info">
+        <h2>Driver Information</h2>
+        <p>In 1995, a promising young Dane made his Formula 1 debut with McLaren. That man was Jan Magnussen and in a delightful twist of fate, some 19 years later, the same team handed an F1 chance to his son, Kevin.</p>
+        <p>It proved to be a frustrating comeback as Renault looked to find their feet as a works squad again - using a car initially designed around a Mercedes power unit. Magnussen scored seven of their meagre eight points for the season - with a best finish of seventh in Russia - but when they hesitated on re-signing him he wasted little time in finding a 2017 drive with the up-and-coming Haas squad.</p>
+      </article>
+
+      <article class="driver-info">
+        <img class="leftdriver" src="images/magnussen.jpg" alt="Kevin Magnussen" style="width:50%;">
+      </article>
+
+      <article class="team-constructors">
+        <h2>Teammate</h2>
+        <h3>Romain Grosjean</h3>
+        <img class="rightdriver" src="images/grosjean.jpg" alt="Romain Grosjean" style="width:50%;">
+        <a class="teammatebutton" href="grosjean.html">View</a>
+      </article>
+
+      <article class="drivers-standings">
+        <h2>Drivers Standings</h2>
+<table class="tg">
+  <tr>
+    <th class="tg-alldrivers">Position</th>
+    <th class="tg-alldrivers">Driver</th>
+    <th class="tg-alldrivers">Team</th>
+    <th class="tg-alldrivers">Wins</th>
+    <th class="tg-alldrivers">Points</th>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">1</td>
+    <td class="tg-alldrivers">Sebastian Vettel</td>
+    <td class="tg-alldrivers">Ferrari</td>
+    <td class="tg-alldrivers">2</td>
+    <td class="tg-alldrivers">54<br></td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">2</td>
+    <td class="tg-alldrivers">Lewis Hamilton</td>
+    <td class="tg-alldrivers">Mercedes<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">45</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">3</td>
+    <td class="tg-alldrivers">Valterri Bottas</td>
+    <td class="tg-alldrivers">Mercedes</td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">40<br></td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">4</td>
+    <td class="tg-alldrivers">Daniel Ricciardo</td>
+    <td class="tg-alldrivers">Red Bull</td>
+    <td class="tg-alldrivers">1</td>
+    <td class="tg-alldrivers">37<br></td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">5</td>
+    <td class="tg-alldrivers">Kimi Raikkonen</td>
+    <td class="tg-alldrivers">Ferrari</td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">30<br></td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">6</td>
+    <td class="tg-alldrivers">Fernando Alonso<br></td>
+    <td class="tg-alldrivers">Mclaren<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">22</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">7</td>
+    <td class="tg-alldrivers">Nico Hulkenberg</td>
+    <td class="tg-alldrivers">Renault</td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">22</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">8</td>
+    <td class="tg-alldrivers">Max Verstappen</td>
+    <td class="tg-alldrivers">Red Bull <br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">18</td>
+  </tr>
+  <tr>
+    <td class="tg-alldrivers">9</td>
+    <td class="tg-alldrivers">Pierre Gasly</td>
+    <td class="tg-alldrivers">Toro Rosso<br></td>
+    <td class="tg-alldrivers">0</td>
+    <td class="tg-alldrivers">12</td>
+  </tr>
+  <tr>
+    <td class="tg-currentdriver">10</td>
+    <td class="tg-currentdriver">Kevin Magnussen<br></td>
+    <td class="tg-currentdriver">Haas<br></td>
+    <td class="tg-currentdriver">0</td>
+    <td class="tg-currentdriver">11</td>
+  </tr>
+</table>
+        <a class="button" href="../standings/drivers.html">View Full Table</a>
+      </article>
+    </main>
+
+    <footer>
+
+    </footer>
+
+  </body>
+</html>
